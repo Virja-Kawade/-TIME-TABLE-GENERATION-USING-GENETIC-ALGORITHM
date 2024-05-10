@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Course Scheduler</title>
+  <style>
+    /* Add your CSS styling here */
+  </style>
+</head>
+<body>
+  <h1>Course Scheduler</h1>
+
+  <form action="http://localhost:5000/process_data" method="POST">
+    <label for="department">Select Department:</label>
+    <select id="department" name="department">
+      <option value="ETRX">ETRX</option>
+      <option value="VLSI">VLSI</option>
+      <!-- Add more options if needed -->
+    </select>
+
+    <label for="subject">Select Subject:</label>
+    <select id="subject" name="subject">
+      <!-- Populate options based on the selected department using JavaScript -->
+    </select>
+
+    <!-- Add more input fields as per your requirements -->
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <script>
+    // Add JavaScript code here to populate the subject options based on the selected department
+  </script>
+</body>
+</html>
